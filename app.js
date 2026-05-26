@@ -13,11 +13,8 @@
         return;
     }
 
-    // Fisher-Yates shuffle so each session has a different order.
-    for (let i = breeds.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [breeds[i], breeds[j]] = [breeds[j], breeds[i]];
-    }
+    // Sort alphabetically by Bulgarian name so the order is always the same.
+    breeds.sort((a, b) => a.name.localeCompare(b.name, "bg"));
 
     let index = 0;
     let nameShown = false;

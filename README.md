@@ -7,7 +7,7 @@ A tiny single-page game for learning dog breed names in Bulgarian. Built for my 
 1. A dog appears on a white background.
 2. Tap (or click) the dog → its Bulgarian name fades in above it.
 3. Tap again → the next dog appears with the name hidden.
-4. Repeat. Breeds are shuffled fresh each session.
+4. Repeat. Breeds always appear in Bulgarian alphabetical order.
 
 Keyboard: `Space`, `Enter`, or `→` also advance.
 
