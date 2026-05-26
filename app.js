@@ -1,0 +1,58 @@
+(async function () {
+    const stage = document.getElementById("stage");
+    const nameEl = document.getElementById("name");
+    const dogEl = document.getElementById("dog");
+
+    let breeds = [];
+    try {
+        const res = await fetch("breeds.json", { cache: "no-cache" });
+        breeds = await res.json();
+    } catch (e) {
+        nameEl.textContent = "Грешка при зареждане";
+        nameEl.classList.add("visible");
+        return;
+    }
+
+    // Fisher-Yates shuffle so each session has a different order.
+    for (let i = breeds.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [breeds[i], breeds[j]] = [breeds[j], breeds[i]];
+    }
+
+    let index = 0;
+    let nameShown = false;
+
+    function showCurrent() {
+        const breed = breeds[index];
+        dogEl.src = breed.image;
+        dogEl.alt = breed.name;
+        nameEl.textContent = "";
+        nameShown = false;
+        nameEl.classList.remove("visible");
+        // preload next image to avoid flicker on tap
+        const next = breeds[(index + 1) % breeds.length];
+        const pre = new Image();
+        pre.src = next.image;
+    }
+
+    function advance() {
+        if (!nameShown) {
+            nameEl.textContent = breeds[index].name;
+            nameEl.classList.add("visible");
+            nameShown = true;
+        } else {
+            index = (index + 1) % breeds.length;
+            showCurrent();
+        }
+    }
+
+    stage.addEventListener("click", advance);
+    stage.addEventListener("keydown", function (e) {
+        if (e.key === " " || e.key === "Enter" || e.key === "ArrowRight") {
+            e.preventDefault();
+            advance();
+        }
+    });
+
+    showCurrent();
+})();

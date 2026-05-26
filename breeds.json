@@ -1,0 +1,494 @@
+[
+    {
+        "name":  "Австралийска Овчарка",
+        "image":  "images/avstraliyska-ovcharka.jpg"
+    },
+    {
+        "name":  "Австралийски Копринен Териер",
+        "image":  "images/avstraliyski-koprinen-terier.jpg"
+    },
+    {
+        "name":  "Австралийски Териер",
+        "image":  "images/avstraliyski-terier.jpg"
+    },
+    {
+        "name":  "Австралийско Пастирско Куче",
+        "image":  "images/avstraliysko-pastirsko-kuche.jpg"
+    },
+    {
+        "name":  "Аляски Маламут",
+        "image":  "images/alyaski-malamut.jpg"
+    },
+    {
+        "name":  "Американска Акита",
+        "image":  "images/amerikanska-akita.jpg"
+    },
+    {
+        "name":  "Американски кокер шпаньол",
+        "image":  "images/amerikanski-koker-shpanyol.jpg"
+    },
+    {
+        "name":  "Английски Кокер Шпаньол",
+        "image":  "images/angliyski-koker-shpanyol.jpg"
+    },
+    {
+        "name":  "Английски Сетер",
+        "image":  "images/angliyski-seter.jpg"
+    },
+    {
+        "name":  "Английски Спрингер Шпаньол",
+        "image":  "images/angliyski-springer-shpanyol.jpg"
+    },
+    {
+        "name":  "Афганска / Афганистанска Хрътка",
+        "image":  "images/afganska-hrutka.jpg"
+    },
+    {
+        "name":  "Афенпинчер",
+        "image":  "images/afenpincher.jpg"
+    },
+    {
+        "name":  "Баварска Планинска Хрътка",
+        "image":  "images/bavarska-planinska-hratka.jpg"
+    },
+    {
+        "name":  "Басенджи",
+        "image":  "images/basendzhi.jpg"
+    },
+    {
+        "name":  "Басетхаунд",
+        "image":  "images/basethaund.jpg"
+    },
+    {
+        "name":  "Белгийска Овчарка Малиноа",
+        "image":  "images/belgiyska-ovcharka.jpg"
+    },
+    {
+        "name":  "Белгийска Овчарка Тервьорен",
+        "image":  "images/belgiyska-ovcharka-tervyoren.jpg"
+    },
+    {
+        "name":  "Бергамаско",
+        "image":  "images/bergamasko.jpg"
+    },
+    {
+        "name":  "Бернска Овчарка",
+        "image":  "images/bernska-ovcharka.jpg"
+    },
+    {
+        "name":  "Бигъл",
+        "image":  "images/beagle.jpg"
+    },
+    {
+        "name":  "Блъдхаунд",
+        "image":  "images/bladhaund.jpg"
+    },
+    {
+        "name":  "Боксер",
+        "image":  "images/bokser.jpg"
+    },
+    {
+        "name":  "Болонка",
+        "image":  "images/bolonka.jpg"
+    },
+    {
+        "name":  "Бордър Коли",
+        "image":  "images/bordar-koli.jpg"
+    },
+    {
+        "name":  "Бордър Териер",
+        "image":  "images/bordur-terier.jpg"
+    },
+    {
+        "name":  "Борзой",
+        "image":  "images/borzoy.jpg"
+    },
+    {
+        "name":  "Босерон",
+        "image":  "images/boseron.jpg"
+    },
+    {
+        "name":  "Бостън териер",
+        "image":  "images/bostan-terier.jpg"
+    },
+    {
+        "name":  "Брадато Коли",
+        "image":  "images/bradato-koli.jpg"
+    },
+    {
+        "name":  "Брако Италиано",
+        "image":  "images/brako-italiano.jpg"
+    },
+    {
+        "name":  "Бриар",
+        "image":  "images/bria.jpg"
+    },
+    {
+        "name":  "Британски кокер шпаньол",
+        "image":  "images/britanski-shpaniol.jpg"
+    },
+    {
+        "name":  "Булмастиф",
+        "image":  "images/bulmastif.jpg"
+    },
+    {
+        "name":  "Бултериер",
+        "image":  "images/bulterier.jpg"
+    },
+    {
+        "name":  "Ваймаранер",
+        "image":  "images/gladkokosmest-vaimaraner.jpg"
+    },
+    {
+        "name":  "Голдън Ретривър",
+        "image":  "images/goldan-retrivar.jpg"
+    },
+    {
+        "name":  "Голям Мюнстерлендер",
+        "image":  "images/edur-munsterlander.jpg"
+    },
+    {
+        "name":  "Гордън Сетер",
+        "image":  "images/gordan-seter.jpg"
+    },
+    {
+        "name":  "Грейхаунд",
+        "image":  "images/greyhaund.jpg"
+    },
+    {
+        "name":  "Грубокосмест Чау Чау",
+        "image":  "images/dulgokosmest-chau-chau.jpg"
+    },
+    {
+        "name":  "Дакел (гладкокосмест)",
+        "image":  "images/dakel-gladkokosmest.jpg"
+    },
+    {
+        "name":  "Дакел (грубокосмест)",
+        "image":  "images/dakel-grubokosmest.jpg"
+    },
+    {
+        "name":  "Дакел (късокосмест)",
+        "image":  "images/dakel-kasokosmest.jpg"
+    },
+    {
+        "name":  "Далматинец",
+        "image":  "images/dalmatinets.jpg"
+    },
+    {
+        "name":  "Диърхаунд",
+        "image":  "images/diarhaund.jpg"
+    },
+    {
+        "name":  "Доберман",
+        "image":  "images/doberman.jpg"
+    },
+    {
+        "name":  "Дългокосмест Дакел",
+        "image":  "images/dulgokosmest-dakel.jpg"
+    },
+    {
+        "name":  "Дългокосместо куче коли",
+        "image":  "images/dulgokosmesto-koli.jpg"
+    },
+    {
+        "name":  "Дългокосместо Чихуахуа",
+        "image":  "images/dalgokosmesto-chihuahua.jpg"
+    },
+    {
+        "name":  "Еърдейл териер",
+        "image":  "images/eurdel-terier.jpg"
+    },
+    {
+        "name":  "Ирландски Вълкодав",
+        "image":  "images/irlandski-valkodav.jpg"
+    },
+    {
+        "name":  "Ирландски Сетер",
+        "image":  "images/irlandski-seter.jpg"
+    },
+    {
+        "name":  "Ирландски Териер",
+        "image":  "images/irlandski-terier.jpg"
+    },
+    {
+        "name":  "Италианска Хрътка",
+        "image":  "images/italianska-hratka.jpg"
+    },
+    {
+        "name":  "Йоркширски Териер",
+        "image":  "images/yorkshirski-terier.jpg"
+    },
+    {
+        "name":  "Кавалер Кинг Чарлз Шпаньол",
+        "image":  "images/charlz-shpaniol.jpg"
+    },
+    {
+        "name":  "кеърнтериер",
+        "image":  "images/kern-terier.jpg"
+    },
+    {
+        "name":  "Кишонд",
+        "image":  "images/kishond.jpg"
+    },
+    {
+        "name":  "Комондор",
+        "image":  "images/komondor.jpg"
+    },
+    {
+        "name":  "Котон де Тулеар",
+        "image":  "images/koton-de-tulear.jpg"
+    },
+    {
+        "name":  "Куче Анатолийска овчарка",
+        "image":  "images/anatoliyska-ovcharka.jpg"
+    },
+    {
+        "name":  "Късокосместо Коли",
+        "image":  "images/kusokosmesto-koli.jpg"
+    },
+    {
+        "name":  "Лабрадор Ретривър",
+        "image":  "images/labrador-retrivar.jpg"
+    },
+    {
+        "name":  "Лейкланд Териер",
+        "image":  "images/leikland-terier.jpg"
+    },
+    {
+        "name":  "Леонбергер",
+        "image":  "images/leonberger.jpg"
+    },
+    {
+        "name":  "Лъвско куче / Лоучен",
+        "image":  "images/luvsko-kuche.jpg"
+    },
+    {
+        "name":  "Малтийска Болонка",
+        "image":  "images/maltiyska-bolonka.jpg"
+    },
+    {
+        "name":  "Мастиф",
+        "image":  "images/mastif.jpg"
+    },
+    {
+        "name":  "Мини Пинчер",
+        "image":  "images/mini-pincher.jpg"
+    },
+    {
+        "name":  "Мини пудел",
+        "image":  "images/mini-pudel.jpg"
+    },
+    {
+        "name":  "Мини Шнауцер",
+        "image":  "images/mini-schnauzer.jpg"
+    },
+    {
+        "name":  "Мопс",
+        "image":  "images/mops.jpg"
+    },
+    {
+        "name":  "Неаполитански Мастиф",
+        "image":  "images/neapolitanski-mastif.jpg"
+    },
+    {
+        "name":  "Немска Овчарка",
+        "image":  "images/nemska-ovcharka.jpg"
+    },
+    {
+        "name":  "Немски Дог",
+        "image":  "images/nemski-dog.jpg"
+    },
+    {
+        "name":  "Немски Дратхаар",
+        "image":  "images/nemski-drathaar.jpg"
+    },
+    {
+        "name":  "Немски Късокосмест Пойнтер",
+        "image":  "images/nemski-kusokosmest-pointer.jpg"
+    },
+    {
+        "name":  "Немски Пинчер",
+        "image":  "images/nemski-pincher.jpg"
+    },
+    {
+        "name":  "Немски Шпиц",
+        "image":  "images/nemski-shpits.jpg"
+    },
+    {
+        "name":  "Ньюфаундленд",
+        "image":  "images/nyyufaundlend.jpg"
+    },
+    {
+        "name":  "пиренейска овчарка",
+        "image":  "images/pirineyska-ovcharka.jpg"
+    },
+    {
+        "name":  "Пиренейско Планинско Куче",
+        "image":  "images/pirineysko-planinsko-kuche.jpg"
+    },
+    {
+        "name":  "Пойнтер",
+        "image":  "images/poynter.jpg"
+    },
+    {
+        "name":  "Порода куче булдог",
+        "image":  "images/buldog.jpg"
+    },
+    {
+        "name":  "Порода куче ланкашир хилер",
+        "image":  "images/lanaksher-hiler.jpg"
+    },
+    {
+        "name":  "Порода куче померан",
+        "image":  "images/pomeran.jpg"
+    },
+    {
+        "name":  "Порода куче той пудел",
+        "image":  "images/toy-pudel.jpg"
+    },
+    {
+        "name":  "Порода френска болонка",
+        "image":  "images/frenska-bolonka.jpg"
+    },
+    {
+        "name":  "Пърсън Джак Ръсел Териер",
+        "image":  "images/parsan-dzhak-rasel-terier.jpg"
+    },
+    {
+        "name":  "Ризеншнауцер",
+        "image":  "images/rizenshnautser.jpg"
+    },
+    {
+        "name":  "Ротвайлер",
+        "image":  "images/rotvailer.jpg"
+    },
+    {
+        "name":  "Самоед",
+        "image":  "images/samoed.jpg"
+    },
+    {
+        "name":  "Санбернар",
+        "image":  "images/sanbernar.jpg"
+    },
+    {
+        "name":  "Сибирско Хъски",
+        "image":  "images/sibirsko-haski.jpg"
+    },
+    {
+        "name":  "Среден немски шпиц",
+        "image":  "images/sreden-nemski-shpits.jpg"
+    },
+    {
+        "name":  "Стандартен Пудел",
+        "image":  "images/standarten-pudel.jpg"
+    },
+    {
+        "name":  "Стандартен шнауцер",
+        "image":  "images/standarten-shnautser.jpg"
+    },
+    {
+        "name":  "Станфордски Бултериер",
+        "image":  "images/stanfordski-bulterier.jpg"
+    },
+    {
+        "name":  "Староанглийская Овчарка",
+        "image":  "images/staroangliyska-ovcharka.jpg"
+    },
+    {
+        "name":  "Съсекски Шпаньол",
+        "image":  "images/sasekski-shpanyol.jpg"
+    },
+    {
+        "name":  "Тибетски Мастиф",
+        "image":  "images/tibetski-mastif.jpg"
+    },
+    {
+        "name":  "Тибетски Териер",
+        "image":  "images/tibetski-terier.jpg"
+    },
+    {
+        "name":  "Тибетски Шпаньол",
+        "image":  "images/tibetski-shpaniol.jpg"
+    },
+    {
+        "name":  "Уелски корги кардиган",
+        "image":  "images/uelsko-korgi-kardigan.jpg"
+    },
+    {
+        "name":  "Уелски Териер",
+        "image":  "images/uelski-terier.jpg"
+    },
+    {
+        "name":  "Уелско Корги Пембрук",
+        "image":  "images/uelsko-korgi-pembruk.jpg"
+    },
+    {
+        "name":  "Унгарска Визла",
+        "image":  "images/ungarska-vizla.jpg"
+    },
+    {
+        "name":  "Унгарско Пули",
+        "image":  "images/ungarsko-puli.jpg"
+    },
+    {
+        "name":  "Фараонова Хрътка",
+        "image":  "images/faraonova-hratka.jpg"
+    },
+    {
+        "name":  "Финландски Шпиц",
+        "image":  "images/finlandski-shpits.jpg"
+    },
+    {
+        "name":  "Фландърско Бувие",
+        "image":  "images/flandarsko-buvie.jpg"
+    },
+    {
+        "name":  "Фокстериер късокосмест",
+        "image":  "images/foksterier-kasokosmest.jpg"
+    },
+    {
+        "name":  "Френски Булдог",
+        "image":  "images/frenski-buldog.jpg"
+    },
+    {
+        "name":  "Ховаварт",
+        "image":  "images/hovavart.jpg"
+    },
+    {
+        "name":  "Чешки териер",
+        "image":  "images/cheshki-terier.jpg"
+    },
+    {
+        "name":  "Чихуахуа (Късокосместо)",
+        "image":  "images/kasokosmesto-chihuahua.jpg"
+    },
+    {
+        "name":  "Шар Пей",
+        "image":  "images/shar-pey.jpg"
+    },
+    {
+        "name":  "Ши Тцу",
+        "image":  "images/shi-tsu.jpg"
+    },
+    {
+        "name":  "Шотландска Овчарка",
+        "image":  "images/shotlandska-ovcharka.jpg"
+    },
+    {
+        "name":  "Шотландски Териер",
+        "image":  "images/shotlandski-terier.jpg"
+    },
+    {
+        "name":  "Японска Шиба Ину",
+        "image":  "images/yaponska-shiba-inu.jpg"
+    },
+    {
+        "name":  "Японски Хин",
+        "image":  "images/yaponski-hin.jpg"
+    },
+    {
+        "name":  "Японски Шпиц",
+        "image":  "images/yaponski-shpits.jpg"
+    }
+]
