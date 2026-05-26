@@ -35,8 +35,14 @@ html, body {
     font-weight: 700;
     text-align: center;
     line-height: 1.2;
-    margin-bottom: 24px;
-    min-height: 1.2em;
+    margin-bottom: 16px;
+    /* Reserve a fixed slot tall enough for up to 2 lines, so the image
+       never shifts when a long breed name wraps. The text hugs the
+       bottom of the slot so 1-line names sit close to the image. */
+    height: 2.4em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     opacity: 0;
     transform: translateY(8px);
     transition: opacity 220ms ease, transform 220ms ease;
