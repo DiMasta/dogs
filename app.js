@@ -43,13 +43,25 @@
         }
     }
 
+    function goTo(i) {
+        index = ((i % breeds.length) + breeds.length) % breeds.length;
+        showCurrent();
+    }
+
     stage.addEventListener("click", advance);
     stage.addEventListener("keydown", function (e) {
         if (e.key === " " || e.key === "Enter" || e.key === "ArrowRight") {
             e.preventDefault();
             advance();
+        } else if (e.key === "ArrowLeft") {
+            e.preventDefault();
+            goTo(index - 1);
         }
     });
+
+    document.getElementById("prev").addEventListener("click", () => goTo(index - 1));
+    document.getElementById("restart").addEventListener("click", () => goTo(0));
+    document.getElementById("next").addEventListener("click", advance);
 
     showCurrent();
 })();

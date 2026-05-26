@@ -9,7 +9,9 @@ A tiny single-page game for learning dog breed names in Bulgarian. Built for my 
 3. Tap again → the next dog appears with the name hidden.
 4. Repeat. Breeds always appear in Bulgarian alphabetical order.
 
-Keyboard: `Space`, `Enter`, or `→` also advance.
+Under the dog there's a row of three buttons: `←` previous dog, `↺` start over from the first dog, and `→` next (same as tapping the dog).
+
+Keyboard: `Space`, `Enter`, or `→` advance; `←` goes back to the previous dog.
 
 ## Run it locally
 
