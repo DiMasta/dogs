@@ -54,7 +54,9 @@ html, body {
 }
 
 .image-wrap {
-    width: min(80vw, 80dvh, 520px);
+    /* Keep generous breathing room around every photo so square-ish
+       images don't appear edge-to-edge / cropped on small screens. */
+    width: min(65vw, 65dvh, 520px);
     aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
