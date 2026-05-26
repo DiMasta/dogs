@@ -2,6 +2,10 @@
     const stage = document.getElementById("stage");
     const nameEl = document.getElementById("name");
     const dogEl = document.getElementById("dog");
+    const counterEl = document.getElementById("counter");
+    const prevBtn = document.getElementById("prev");
+    const restartBtn = document.getElementById("restart");
+    const nextBtn = document.getElementById("next");
 
     let breeds = [];
     try {
@@ -23,6 +27,8 @@
         const breed = breeds[index];
         dogEl.src = breed.image;
         dogEl.alt = breed.name;
+        counterEl.textContent = (index + 1) + " / " + breeds.length;
+        prevBtn.disabled = index === 0;
         nameEl.textContent = "";
         nameShown = false;
         nameEl.classList.remove("visible");
@@ -44,8 +50,12 @@
     }
 
     function goTo(i) {
-        index = ((i % breeds.length) + breeds.length) % breeds.length;
+        index = Math.max(0, Math.min(i, breeds.length - 1));
         showCurrent();
+    }
+
+    function goPrev() {
+        if (index > 0) goTo(index - 1);
     }
 
     stage.addEventListener("click", advance);
@@ -55,13 +65,13 @@
             advance();
         } else if (e.key === "ArrowLeft") {
             e.preventDefault();
-            goTo(index - 1);
+            goPrev();
         }
     });
 
-    document.getElementById("prev").addEventListener("click", () => goTo(index - 1));
-    document.getElementById("restart").addEventListener("click", () => goTo(0));
-    document.getElementById("next").addEventListener("click", advance);
+    prevBtn.addEventListener("click", goPrev);
+    restartBtn.addEventListener("click", () => goTo(0));
+    nextBtn.addEventListener("click", advance);
 
     showCurrent();
 })();
