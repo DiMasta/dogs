@@ -1,0 +1,6 @@
+# Local backup of original (pre-crop) images. Kept locally for rollback /
+# re-running the crop script; not needed in the published site.
+images_orig/
+
+# One-off tooling scripts (e.g., _tmp_crop.py) kept locally.
+_tmp_*
