@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="counter" id="counter"></div>
     <main class="stage" id="stage" role="button" tabindex="0" aria-label="Покажи следващото куче">
+        <div class="progress">
+            <span class="progress-count" id="counter"></span>
+            <span class="progress-track"><span class="progress-fill" id="progressFill"></span></span>
+        </div>
         <div class="name" id="name" aria-live="polite"></div>
         <div class="image-wrap">
             <img id="dog" alt="" decoding="async" />

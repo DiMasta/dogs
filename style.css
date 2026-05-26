@@ -81,16 +81,39 @@ body {
     pointer-events: none;
 }
 
-.counter {
-    flex: 0 0 auto;
-    text-align: center;
-    padding: calc(14px + env(safe-area-inset-top)) 16px 4px;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #888;
-    font-variant-numeric: tabular-nums;
+.progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 18px;
     user-select: none;
     -webkit-user-select: none;
+}
+
+.progress-count {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #111;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.03em;
+}
+
+.progress-track {
+    width: min(62vw, 320px);
+    height: 8px;
+    background: #fff;
+    border: 1.5px solid #111;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: #111;
+    transition: width 240ms ease;
 }
 
 .controls {
@@ -116,22 +139,23 @@ body {
     font-size: 1.8rem;
     line-height: 1;
     color: #111;
-    background: #fafafa;
-    border: 2px solid #e2e2e2;
+    background: #fff;
+    border: 2px solid #111;
     border-radius: 14px;
-    transition: background 120ms ease, transform 80ms ease;
+    transition: background 120ms ease, color 120ms ease, transform 80ms ease;
 }
 
-.ctrl:hover { background: #f0f0f0; }
-.ctrl:active { transform: scale(0.94); background: #e8e8e8; }
-.ctrl:focus-visible { outline: none; box-shadow: 0 0 0 3px #cce4ff; }
-.ctrl:disabled { opacity: 0.3; cursor: default; transform: none; background: #fafafa; }
+.ctrl:hover { background: #f2f2f2; }
+.ctrl:active { transform: scale(0.94); background: #111; color: #fff; }
+.ctrl:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25); }
+.ctrl:disabled { opacity: 0.25; cursor: default; transform: none; background: #fff; color: #111; }
 
 @media (orientation: landscape) and (max-height: 500px) {
-    .stage { flex-direction: row; gap: 24px; padding: 16px; }
+    .stage { flex-direction: row; flex-wrap: wrap; align-content: center; gap: 0 24px; padding: 16px; }
+    .progress { flex-basis: 100%; margin-bottom: 8px; }
+    .progress-track { width: min(50vw, 280px); }
     .name { margin-bottom: 0; }
     .image-wrap { width: min(55vw, 62dvh); }
-    .counter { padding: calc(4px + env(safe-area-inset-top)) 16px 2px; font-size: 0.85rem; }
     .controls { padding: 8px 16px calc(8px + env(safe-area-inset-bottom)); gap: 12px; }
     .ctrl { width: 60px; height: 44px; font-size: 1.5rem; }
 }

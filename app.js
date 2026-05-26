@@ -3,6 +3,7 @@
     const nameEl = document.getElementById("name");
     const dogEl = document.getElementById("dog");
     const counterEl = document.getElementById("counter");
+    const progressFill = document.getElementById("progressFill");
     const prevBtn = document.getElementById("prev");
     const restartBtn = document.getElementById("restart");
     const nextBtn = document.getElementById("next");
@@ -23,15 +24,21 @@
     let index = 0;
     let nameShown = false;
 
+    function updateControls() {
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = nameShown && index === breeds.length - 1;
+    }
+
     function showCurrent() {
         const breed = breeds[index];
         dogEl.src = breed.image;
         dogEl.alt = breed.name;
         counterEl.textContent = (index + 1) + " / " + breeds.length;
-        prevBtn.disabled = index === 0;
+        progressFill.style.width = ((index + 1) / breeds.length) * 100 + "%";
         nameEl.textContent = "";
         nameShown = false;
         nameEl.classList.remove("visible");
+        updateControls();
         // preload next image to avoid flicker on tap
         const next = breeds[(index + 1) % breeds.length];
         const pre = new Image();
@@ -43,8 +50,9 @@
             nameEl.textContent = breeds[index].name;
             nameEl.classList.add("visible");
             nameShown = true;
-        } else {
-            index = (index + 1) % breeds.length;
+            updateControls();
+        } else if (index < breeds.length - 1) {
+            index += 1;
             showCurrent();
         }
     }
