@@ -13,15 +13,23 @@
             <span class="progress-count" id="counter"></span>
             <span class="progress-track"><span class="progress-fill" id="progressFill"></span></span>
         </div>
-        <div class="name" id="name" aria-live="polite"></div>
-        <div class="image-wrap">
-            <img id="dog" alt="" decoding="async" />
+        <div class="card">
+            <div class="name" id="name" aria-live="polite"></div>
+            <div class="image-wrap">
+                <img id="dog" alt="" decoding="async" />
+            </div>
         </div>
     </main>
     <nav class="controls" id="controls" aria-label="Управление">
-        <button type="button" id="prev" class="ctrl" aria-label="Предишно куче">←</button>
-        <button type="button" id="restart" class="ctrl" aria-label="Започни отначало">↺</button>
-        <button type="button" id="next" class="ctrl" aria-label="Следващо куче">→</button>
+        <button type="button" id="prev" class="ctrl" aria-label="Предишно куче">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="15 18 9 12 15 6" /></svg>
+        </button>
+        <button type="button" id="restart" class="ctrl" aria-label="Започни отначало">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="1 4 1 10 7 10" /><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" /></svg>
+        </button>
+        <button type="button" id="next" class="ctrl" aria-label="Следващо куче">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6" /></svg>
+        </button>
     </nav>
     <script src="app.js"></script>
 </body>
